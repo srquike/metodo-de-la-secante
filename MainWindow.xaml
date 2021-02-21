@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:metodo_de_la_secante"
         mc:Ignorable="d"
-        Title="Método de la secante" Height="450" Width="802"
+        Title="Método de la secante" Height="450" Width="628"
         SizeToContent="WidthAndHeight">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -25,8 +25,7 @@
                 <TextBlock Text="Error = " Margin="0,0,10,0"></TextBlock>
                 <TextBox Text="0.001" Width="100" Margin="0,0,10,0" IsReadOnly="True"></TextBox>
                 <Button x:Name="BtnCalcular" Content="Calcular" Padding="10,0" Margin="0,0,10,0" Click="BtnCalcular_Click"></Button>
-                <Button x:Name="BtnLimpiar" Content="Limpiar" Padding="10,0" Margin="0,0,10,0" Click="BtnLimpiar_Click"></Button>
-                <Button x:Name="BtnSecanteModificada" Content="Aplicar Secante Modificada" Padding="10,0"></Button>
+                <Button x:Name="BtnLimpiar" Content="Limpiar" Padding="10,0" Click="BtnLimpiar_Click"></Button>
             </WrapPanel>
         </GroupBox>
         <GroupBox Header="Iteraciones" Grid.Column="0" Grid.Row="1" BorderBrush="Black" Margin="5" Padding="5">
